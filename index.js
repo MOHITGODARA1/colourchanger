@@ -1,4 +1,4 @@
-const hexvalue=document.querySelector(".hex");
+const hexvalu=document.querySelector(".hex");
 const change=document.body;
 const btn=document.querySelector("button");
 btn.addEventListener("click",()=>{
@@ -10,6 +10,6 @@ const colourgenrator=()=>{
    for(let i=0; i<6; i++){
       first+=letter[Math.floor(Math.random()*16)];
    }
-   hexvalue.innerHTML=first;
+   hexvalu.innerHTML=first;
    change.style.backgroundColor=first;
 }
